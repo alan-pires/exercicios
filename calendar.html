@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <div class="event">
+        <label for="nomeEv">Evento:</label>
+        <input type="text" id="nameEv" placeholder="Nome do evento">
+
+        <label for="dateEv">Data do evento:</label>
+        <input type="date" name="dateEv" id="dateEv" value="2020-08-01">
+
+        <div class="countdown">
+             <div id="dias"></div>
+             <div id="horas"></div>
+             <div id="minutos"></div>
+             <div id="segundos"></div>
+        </div>
+        <p id="mostrar"></p>
+
+    </div>
+    <script src="./calendar.js"></script>
+</body>
+</html>
