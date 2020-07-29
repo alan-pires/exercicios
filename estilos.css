@@ -22,3 +22,30 @@ button, input{
     margin-top: 5px;
 }
 
+.event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event input{
+    margin-bottom: 5px;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: row;
+}
+
+.countdown div{
+    height: 30px;
+    width: 35px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dias{
+    color: tomato;
+}
