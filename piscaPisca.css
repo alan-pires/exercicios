@@ -1,0 +1,73 @@
+html, body{
+    height: 100vh;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.luzes{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.luzes div{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    background-color: tomato;
+    margin: 5px;
+}
+
+.botoes{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes button{
+    font-size: 20px;
+    width: 200px;
+}
+
+.bright{
+    filter: brightness(30%);
+}
+
+#azul{
+    background-color: blue;
+}
+
+#verde{
+    background-color: green;
+    }
+
+#amarelo{
+    background-color: yellow;
+}
+
+#laranja{
+    background-color: orangered;
+}
+
+#vermelho{
+    background-color: red;
+}
+
+#rosa{
+    background-color: palevioletred;
+}
+
+#roxo{
+    background-color: rebeccapurple;
+}
